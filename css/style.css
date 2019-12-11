@@ -36,6 +36,17 @@ p {
 .text-center{
     text-align:center;
 }
+.bg-light{
+    background: #f4f4f4;
+    color:#333;
+    
+}
+.bg-dark{
+    background: #333;
+    color:#f4f4f4;
+
+}
+
 
 .l-heading{
     font-size:4rem;
@@ -62,6 +73,16 @@ p {
     padding:3rem 0;
 }
 
+.p-1{
+    padding:1.5rem;
+}
+.p-2{
+    padding:2rem;
+}
+.p-3{
+    padding:3rem;
+}
+
 .btn{
     /* we display inline-block in order to use width */
     display:inline-block;
@@ -71,9 +92,11 @@ p {
     border:none;
     border-radius: 5px;
 }
+
 .btn:hover{
     background:#7ab436;
 }
+
 .btn-dark{
     background:#333;
     color:#fff;
@@ -173,4 +196,44 @@ p {
     border-radius:50%;
     margin-bottom: 1rem;
 
+}
+
+
+/* Section: Who We Are */
+#who{
+    display:flex;
+}
+
+#who div {
+    flex:1;
+}
+
+#who .who-img{
+    background:url('../img/people.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.list{
+    margin:0.5rem 0;
+    list-style: none;
+}
+
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+
+/*  Clients */
+#clients .items{
+    display:flex;
+}
+
+#clients .items img{
+    /* to use width */
+    display: block;
+    /* to be in the center */
+    margin:auto;
+    width: 60%;
 }
