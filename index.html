@@ -81,10 +81,10 @@
     <section id="who">
         <!-- background image -->
         <div class="who-img">
-
         </div>
+
         <div class="who-text bg-dark p-2">
-            <h2 class="m-heading"><span class="text-primary">Who</span>We Are</h2>
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa, dolorem iure similique eaque tempore vel, debitis repellat enim qui dicta porro, vero quibusdam natus itaque. Amet, repellat. Neque, eius esse!</p>
             <h3>Our Team</h3>
             <ul class="list">
@@ -106,13 +106,59 @@
                 Clients
             </h2>
             <div class="items py-1">
-                <div><img src="./img/logos/logo1.png" alt=""></div>
-                <div><img src="./img/logos/logo2.png" alt=""></div>
-                <div><img src="./img/logos/logo3.png" alt=""></div>
-                <div><img src="./img/logos/logo4.png" alt=""></div>
-                <div><img src="./img/logos/logo5.png" alt=""></div>
+                <div><img src="./img/logos/logo1.png" alt="Client"></div>
+                <div><img src="./img/logos/logo2.png" alt="Client"></div>
+                <div><img src="./img/logos/logo3.png" alt="Client"></div>
+                <div><img src="./img/logos/logo4.png" alt="Client"></div>
+                <div><img src="./img/logos/logo5.png" alt="Client"></div>
             </div>
         </div>
     </section>
+
+    <!-- Section: Contact -->
+    <section id="contact">
+        <div class="contact-form bg-primary p-2">
+            <h2 class="m-heading">Contact Us</h2>
+            <p>Please use the form below to contact us</p>
+
+            <form>
+                <!--Graps the label and the input  -->
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Phone Number">   
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea  name="message" id="message" placeholder="Enter Message"></textarea>  
+                </div>
+
+                <input type="submit" value="Send" class="btn btn-dark">
+            </form>
+        </div>
+        <div class="map"></div>
+
+    </section>
+
+
+
+    <script src="./js/main.js"></script>
+    <!-- Google API -->
+    <script src="https://maps.googleapis.com/maps/api/js?AIzaSyC7h_Vq_2NpyS04MS_ewZZqQ83bvL6fFmM&callback=initMap"
+    async defer></script>
 </body>
 </html>
+
+
+
+<!-- AIzaSyD4SGk8rPl3nh2n_tKs9EwIx1rUrTrqHWo -->
