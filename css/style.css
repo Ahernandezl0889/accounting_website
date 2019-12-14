@@ -172,7 +172,7 @@ p {
     /* it will cover everything */
     position: absolute; 
     /* start right in the edge */
-    top:63px;
+    top:65px;
     left:0;
     right:0;
     bottom: 0;
@@ -267,3 +267,4 @@ p {
     width:100%;
     padding:0.5rem
 }
+
