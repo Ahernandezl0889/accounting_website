@@ -268,3 +268,14 @@ p {
     padding:0.5rem
 }
 
+.contact-form input:focus{
+    outline:none;
+    border-color:#699350;
+}
+
+.is-required:after{
+    content:'*';
+    color:red;
+    padding-left:2px;
+
+}

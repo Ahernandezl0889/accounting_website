@@ -10,7 +10,7 @@ function initMap() {
     const marker = new google.maps.Marker({ position: loc, map: map });
   }
   
-// sticky navbar
+// sticky navbar (changing opacity)
 window.addEventListener('scroll', function(){
   if (window.scrollY > 150) {
 
@@ -24,7 +24,7 @@ window.addEventListener('scroll', function(){
 
   // Smooth Scrolling 
   // target the navbar link
-  $('#navbar a, .btn').on('click',function(event){
+  $('#navbar a').on('click',function(event){
      
     // checking the hash
     if (this.hash !== '') {
