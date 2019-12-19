@@ -247,6 +247,7 @@ p {
 }
 
 #contact .map , #contact .contact-form{
+    /* Set equal the width */
     /* even */
     flex:1;
 }
