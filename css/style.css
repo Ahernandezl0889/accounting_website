@@ -274,6 +274,7 @@ p {
     border-color:#699350;
 }
 
+/* required fields */
 .is-required:after{
     content:'*';
     color:red;
